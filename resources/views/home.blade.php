@@ -15,6 +15,7 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <a href="{{route('books.index')}}" class="btn btn-primary">Books</a>
                 </div>
             </div>
         </div>
